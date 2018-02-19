@@ -12,7 +12,7 @@ Fliplet().then(function() {
     event.preventDefault();
 
     Fliplet.Widget.save({
-      credentials: {
+      client: {
         id: $('[name="client_id"]').val(),
         secret: $('[name="client_secret"]').val()
       },
