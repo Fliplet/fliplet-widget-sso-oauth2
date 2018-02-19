@@ -1,6 +1,6 @@
 {
-  "name": "SAML2 SSO",
-  "package": "com.fliplet.sso.saml2",
+  "name": "OAuth2 SSO",
+  "package": "com.fliplet.sso.oauth2",
   "version": "1.0.0",
   "icon": "img/icon.png",
   "tags": ["type:appComponent", "visibility:hidden"],
@@ -14,7 +14,6 @@
     ],
     "assets": [
       "js/interface.js",
-      "vendor/clipboard.min.js",
       "css/interface.css"
     ]
   },

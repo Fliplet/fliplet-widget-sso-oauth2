@@ -1,7 +1,7 @@
-# Fliplet SSO SAML2 App Component
+# Fliplet SSO OAuth2 App Component
 
 ```js
-Fliplet.Widget.get('com.fliplet.sso.saml2')
+Fliplet.Widget.get('com.fliplet.sso.oauth2')
   .authorize({ foo: 'bar' })
   .then(function onAuthorized() {
     // all good
